@@ -119,7 +119,7 @@
             } else if (type === 'gift_red') {
                 ctx.fillStyle = '#D32F2F'; ctx.fillRect(20, 20, 88, 88);
                 ctx.fillStyle = '#FFD700'; ctx.fillRect(54, 20, 20, 88); ctx.fillRect(20, 54, 88, 20);
-                ctx.strokeStyle = "rgba(0,0,0,0.3)"; ctx.lineWidth=2; ctx.strokeRect(20,20,88,88);
+                ctx.strokeStyle = "rgba(0,0,0,0.3)"; ctx.lineWidth=0; ctx.strokeRect(20,20,88,88);
             }
             return new THREE.CanvasTexture(canvas);
         }
